@@ -1064,9 +1064,14 @@
   z-index: 1;
   width: 30vw;
   height: 30vw;
-  background-color: #5780eb;
-  -webkit-filter: blur(450vw);
-  filter: blur(450vw);
+  background-color: transparent;
+  -webkit-filter: blur(200px);
+  filter: blur(200px);
+}
+
+.first-screen {
+  background: #030a21 url('../images/bg.png');
+  background-size: cover;
 }
 
 .blur.top-middle {
