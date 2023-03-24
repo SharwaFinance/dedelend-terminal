@@ -729,7 +729,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 40px;
+  padding: 30px 40px!important;
   -webkit-justify-content: space-between;
   justify-content: space-between;
   -webkit-box-align: center;
@@ -738,6 +738,12 @@
   align-items: center;
   background-color: #181a3c;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .faq-trigger {
+    padding: 20px 25px!important;
+  }
 }
 
 .faq-answer {
@@ -3218,14 +3224,15 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .question {
+    font-size: 2vw;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .faq {
     height: auto;
-  }
-
-  .faq-list {
-    margin-right: 4.5vw;
-    margin-left: 4.5vw;
   }
 
   .collection-list-wrapper {
@@ -4599,11 +4606,6 @@
 @media screen and (max-width: 479px) {
   .faq {
     /* height: 323vw; */
-  }
-
-  .faq-list {
-    margin-right: 6.25vw;
-    margin-left: 6.25vw;
   }
 
   .collection-list-wrapper {
