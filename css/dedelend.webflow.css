@@ -719,7 +719,7 @@
   border-style: none;
   border-width: 0.1vw;
   border-color: rgba(56, 66, 99, 0.4);
-  border-radius: 0.5vw;
+  border-radius: 5px!important;
   background-color: transparent;
   overflow: hidden;
 }
@@ -738,6 +738,7 @@
   align-items: center;
   background-color: #181a3c;
   cursor: pointer;
+  border-radius: 0!important;
 }
 
 @media (max-width: 768px) {
@@ -751,6 +752,8 @@
   /* border-radius: 0.5vw; */
   background-color: #181a3c;
   transform: translateY(-2px);
+  border-radius: 0 0 5px 5px!important;
+  overflow: hidden;
 }
 .faq-answer .answer {
   padding-right: 80px;
@@ -796,7 +799,7 @@
 
 .answer {
   padding: 0vw 3vw 1.5vw;
-  border-radius: 0vw;
+  border-radius: 0vw!important;
   font-family: Gantari, sans-serif;
   color: #747fa6;
   font-size: 1.4vw;
