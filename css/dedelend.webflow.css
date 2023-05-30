@@ -6954,14 +6954,12 @@
   background-size: cover;
 }
 .blur {
-  display: none;
+  display: none!important;
 }
-h1.typed {
-  white-space: nowrap;
-}
-@media (max-width: 570px) {
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
   h1.typed {
-    white-space: normal;
+    text-align: center;
+    width: 62vw;
   }
 }
 .grain-overlay {
