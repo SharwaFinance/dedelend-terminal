@@ -6959,6 +6959,11 @@
 h1.typed {
   white-space: nowrap;
 }
+@media (max-width: 570px) {
+  h1.typed {
+    white-space: normal;
+  }
+}
 .grain-overlay {
   opacity: 0.08;
 }
