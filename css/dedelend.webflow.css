@@ -6948,7 +6948,20 @@
 }
 
 
-/* FAQ Style */
+/* Style FIX */
+.first-screen {
+  background: #030a21 url(../images/bg.png);
+  background-size: cover;
+}
+.blur {
+  display: none;
+}
+h1.typed {
+  white-space: nowrap;
+}
+.grain-overlay {
+  opacity: 0.08;
+}
 .banner.faq-banner {
   display: block;
   padding: 0;
