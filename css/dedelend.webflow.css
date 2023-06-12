@@ -203,7 +203,7 @@
 
 .content.paragraph {
   color: #747fa6;
-  margin-bottom: 1.3vw;
+  margin-bottom: .87vw;
   margin-right: 0;
   font-size: 1.48vw;
 }
@@ -234,7 +234,7 @@
 .about-aggregator {
   z-index: 1;
   width: 100%;
-  height: 190vw;
+  height: 160vw;
   background-color: #0d0f29;
   position: relative;
 }
@@ -860,9 +860,16 @@
   right: auto;
 }
 
+.link-trade.user-profile {
+  height: 1.9vw;
+  grid-column-gap: .4vw;
+  grid-row-gap: .4vw;
+  cursor: not-allowed;
+}
+
 .image-options {
   width: 48.1vw;
-  height: 14.7vw;
+  height: 14.8vw;
   position: absolute;
   top: 4.9vw;
   bottom: 0;
@@ -1087,27 +1094,36 @@
 }
 
 .reviews {
-  height: 37vw;
+  height: 47.6vw;
   background-color: #0d0f29;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .slider {
   width: 82.5vw;
-  height: 20.2vw;
+  height: 34.5vw;
   background-color: rgba(0, 0, 0, 0);
   margin-left: 8.7vw;
   margin-right: 8.7vw;
 }
 
 .slide {
-  width: 40.4vw;
-  height: 20.2vw;
+  width: 19.3vw;
+  height: 34.5vw;
   background-color: #131531;
   border: .08vw solid rgba(56, 66, 99, .3);
   border-radius: .4vw;
   margin-right: 1.7vw;
   padding-bottom: 0;
   padding-right: 0;
+}
+
+.slide.head {
+  width: 19.3vw;
+  height: 34.5vw;
+  background-color: #181a3c;
+  position: static;
 }
 
 .mask {
@@ -1119,20 +1135,20 @@
   width: auto;
   height: 2vw;
   padding-top: 0;
-  display: block;
+  display: none;
   bottom: -3vw;
 }
 
 .user-info {
-  width: 18.5vw;
-  height: 6.1vw;
+  width: 15.7vw;
+  height: 5.2vw;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
   display: flex;
   position: relative;
-  top: 2.1vw;
-  left: 2.6vw;
+  top: 1.3vw;
+  left: 1.7vw;
 }
 
 .name-heading {
@@ -1140,7 +1156,7 @@
   margin-top: 0;
   margin-bottom: .4vw;
   font-family: Gantari, sans-serif;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   font-weight: 500;
   line-height: 130%;
   display: block;
@@ -1154,7 +1170,7 @@
 .social-media-link {
   color: #747fa6;
   font-family: Gantari, sans-serif;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-weight: 500;
   line-height: 130%;
   text-decoration: none;
@@ -1170,22 +1186,22 @@
 }
 
 .user-info-name {
-  width: 10.6vw;
-  height: 4.1vw;
+  width: 9.4vw;
+  height: 3.8vw;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
   display: block;
   position: absolute;
-  top: 1vw;
-  bottom: 1vw;
+  top: .7vw;
+  bottom: .7vw;
   left: auto;
   right: 0%;
 }
 
 .review-photo {
-  width: 6.1vw;
-  height: 6.1vw;
+  width: 5.2vw;
+  height: 5.2vw;
   border-radius: 5vw;
   display: block;
   position: absolute;
@@ -1197,10 +1213,10 @@
   margin-top: 0;
   margin-bottom: 0;
   position: absolute;
-  top: 9.7vw;
+  top: 11.6vw;
   bottom: 2.6vw;
-  left: 2.6vw;
-  right: 2.6vw;
+  left: 1.7vw;
+  right: 1.7vw;
 }
 
 .paragraph-review {
@@ -1362,7 +1378,7 @@
 
 .tooltip.analytics {
   top: auto;
-  bottom: .6vw;
+  bottom: 1vw;
   left: 13.7vw;
   right: auto;
 }
@@ -1370,6 +1386,11 @@
 .tooltip.options-aggregator {
   bottom: .6vw;
   left: 14.7vw;
+}
+
+.tooltip.user-profile {
+  bottom: 1vw;
+  left: 15.4vw;
 }
 
 .tooltip-txt {
@@ -1435,8 +1456,8 @@
   position: absolute;
   top: auto;
   bottom: 4.8vw;
-  left: 51vw;
-  right: auto;
+  left: auto;
+  right: 19vw;
 }
 
 .image-fee {
@@ -1455,8 +1476,138 @@
   position: absolute;
   top: auto;
   bottom: 4.8vw;
-  left: 64.5vw;
+  left: auto;
+  right: 2.6vw;
+}
+
+.margin-trading-container {
+  width: 36.3vw;
+  height: 3.5vw;
+  align-items: center;
+  margin-bottom: .87vw;
+  display: flex;
+}
+
+.toggle-wrap {
+  width: 8.3vw;
+  height: 3.5vw;
+  cursor: pointer;
+  background-color: #20224e;
+  border: .08vw solid rgba(56, 66, 99, .3);
+  border-radius: 1.75vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: .87vw;
+  padding-right: .43vw;
+  display: flex;
+  position: relative;
+}
+
+.image-collateral {
+  width: 13.1vw;
+  height: 6.2vw;
+  position: absolute;
+  top: auto;
+  bottom: 8.2vw;
+  left: 40.2vw;
   right: auto;
+}
+
+.toggle-button {
+  width: 2.6vw;
+  height: 2.6vw;
+  cursor: pointer;
+  background-color: #6988ff;
+  border-radius: 1.7vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: static;
+  top: .4vw;
+  bottom: .4vw;
+  left: auto;
+  right: .4vw;
+}
+
+.tick {
+  width: 1.13vw;
+  height: .8vw;
+}
+
+.txt-off {
+  z-index: 0;
+  color: #3a4466;
+  margin-right: 0;
+  padding-right: 0;
+  font-family: Gantari, sans-serif;
+  font-size: 1.3vw;
+  position: relative;
+  top: 0%;
+  bottom: auto;
+  left: 2.6vw;
+  right: 0%;
+}
+
+.txt-on {
+  font-family: Gantari, sans-serif;
+  font-size: 1.3vw;
+}
+
+.txt-margin-trading {
+  color: #747fa6;
+  margin-right: 1.7vw;
+  font-family: Gantari, sans-serif;
+  font-size: 1.3vw;
+}
+
+.arrow-trading {
+  width: 2.6vw;
+  height: 2.5vw;
+  margin-left: 1.7vw;
+  margin-right: .88vw;
+}
+
+.txt-click {
+  color: #747fa6;
+  font-family: Gantari, sans-serif;
+  font-size: 1.3vw;
+}
+
+.head-reviews {
+  color: #6988ff;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Electrolize, sans-serif;
+  font-size: 2.6vw;
+  line-height: 115%;
+  position: absolute;
+  top: auto;
+  bottom: 1.3vw;
+  left: 1.7vw;
+  right: 5.3vw;
+}
+
+.txt-reviews {
+  color: #fff;
+  font-family: Gantari, sans-serif;
+  font-size: 1.7vw;
+  position: absolute;
+  top: 1.3vw;
+  left: 1.7vw;
+}
+
+.txt-link-user-profile {
+  color: #6988ff;
+  cursor: not-allowed;
+  font-family: Gantari, sans-serif;
+  font-size: 1.48vw;
+  text-decoration: none;
+}
+
+.arrow-user-profile {
+  width: .8vw;
+  height: .8vw;
+  cursor: not-allowed;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1587,7 +1738,7 @@
   }
 
   .content.paragraph {
-    margin-bottom: 1.1vw;
+    margin-bottom: .78vw;
     font-size: 1.4vw;
   }
 
@@ -1607,7 +1758,7 @@
   }
 
   .about-aggregator {
-    height: 179vw;
+    height: 152vw;
     background-color: #0d0f29;
   }
 
@@ -1630,6 +1781,10 @@
     padding: 0;
   }
 
+  .card.options-aggregator {
+    height: 26.7vw;
+  }
+
   .card-heading-options {
     margin-bottom: .7vw;
     font-size: 2.2vw;
@@ -1637,7 +1792,7 @@
 
   .txt-container {
     width: 32.8vw;
-    height: 21.5vw;
+    height: auto;
     top: 1.9vw;
     bottom: 1.9vw;
     left: 3.1vw;
@@ -1647,6 +1802,10 @@
     width: 41vw;
     height: 23vw;
     border-width: .07vw;
+  }
+
+  .txt-container.options-aggregator {
+    height: 23vw;
   }
 
   .opportunities {
@@ -1940,9 +2099,11 @@
 
   .benefits {
     width: 32.8vw;
+    height: auto;
     grid-column-gap: .5vw;
     grid-row-gap: .5vw;
-    margin-bottom: .7vw;
+    align-items: baseline;
+    margin-bottom: .15vw;
   }
 
   .benefits.second {
@@ -1969,9 +2130,9 @@
 
   .image-options {
     width: 53.5vw;
-    height: 16.3vw;
+    height: 16.5vw;
     position: absolute;
-    top: 2vw;
+    top: 3vw;
     bottom: 0;
     left: 38.6vw;
     right: 0%;
@@ -2101,22 +2262,29 @@
   }
 
   .reviews {
-    height: 37vw;
+    height: 47.2vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 84.3vw;
-    height: 18.3vw;
+    height: 30.8vw;
     margin-left: 7.8vw;
     margin-right: 7.8vw;
   }
 
   .slide {
-    width: 41vw;
-    height: 18.3vw;
+    width: 19.3vw;
+    height: 30.8vw;
     border-style: solid;
     border-width: .07vw;
     margin-right: 2.3vw;
+  }
+
+  .slide.head {
+    width: 19.3vw;
+    height: 30.8vw;
   }
 
   .mask {
@@ -2130,30 +2298,33 @@
   }
 
   .user-info {
-    width: 16.5vw;
-    height: 5.4vw;
+    width: 15.3vw;
+    height: 4.6vw;
+    flex-direction: row;
+    align-items: baseline;
     top: 1.9vw;
     left: 2.3vw;
   }
 
   .name-heading {
-    margin-bottom: .4vw;
+    margin-bottom: .2vw;
     font-size: 1.5vw;
   }
 
   .social-media-link {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
 
   .user-info-name {
     width: 9.5vw;
-    top: .8vw;
-    bottom: .8vw;
+    height: 3.7vw;
+    top: .5vw;
+    bottom: .5vw;
   }
 
   .review-photo {
-    width: 5.4vw;
-    height: 5.4vw;
+    width: 4.6vw;
+    height: 4.6vw;
   }
 
   .txt-review {
@@ -2255,6 +2426,10 @@
     left: 13.9vw;
   }
 
+  .tooltip.user-profile {
+    left: 15.8vw;
+  }
+
   .tooltip-txt {
     font-size: 1.1vw;
   }
@@ -2283,9 +2458,9 @@
     height: 3vw;
     position: absolute;
     top: auto;
-    bottom: 2.8vw;
-    left: 47.8vw;
-    right: auto;
+    bottom: 3vw;
+    left: auto;
+    right: 24vw;
   }
 
   .image-fee {
@@ -2293,7 +2468,7 @@
     height: 3vw;
     position: absolute;
     top: auto;
-    bottom: 2.7vw;
+    bottom: 3vw;
     left: 38.6vw;
     right: auto;
   }
@@ -2303,9 +2478,94 @@
     height: 3vw;
     position: absolute;
     top: auto;
-    bottom: 2.7vw;
-    left: 61.1vw;
+    bottom: 3vw;
+    left: auto;
+    right: 8vw;
+  }
+
+  .margin-trading-container {
+    width: 32.8vw;
+    margin-bottom: .78vw;
+    padding-left: 0;
+  }
+
+  .toggle-wrap {
+    width: 7.5vw;
+    height: 3.1vw;
+    border-width: .07vw;
+    padding-left: .78vw;
+  }
+
+  .image-collateral {
+    width: 11.7vw;
+    height: 5.5vw;
+    bottom: 6.4vw;
+    left: 37.5vw;
+  }
+
+  .toggle-button {
+    width: 2.3vw;
+    height: 2.3vw;
+  }
+
+  .tick {
+    width: 1vw;
+    height: .76vw;
+  }
+
+  .txt-off {
+    font-size: 1.1vw;
+    left: 2.5vw;
+  }
+
+  .txt-on {
+    font-size: 1.1vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: 1.5vw;
+    font-size: 1.1vw;
+  }
+
+  .arrow-trading {
+    width: 2.3vw;
+    height: 2.2vw;
+    margin-left: 1.5vw;
+    margin-right: .78vw;
+  }
+
+  .txt-click {
+    font-size: 1.1vw;
+  }
+
+  .head-reviews {
+    color: #6988ff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Electrolize, sans-serif;
+    font-size: 3.1vw;
+    line-height: 115%;
+    position: absolute;
+    top: auto;
+    bottom: 1.9vw;
+    left: 2.3vw;
+    right: 2.9vw;
+  }
+
+  .txt-reviews {
+    color: #fff;
+    font-family: Gantari, sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 1.9vw;
+    bottom: auto;
+    left: 2.3vw;
     right: auto;
+  }
+
+  .arrow-user-profile {
+    width: .78vw;
+    height: .78vw;
   }
 }
 
@@ -2454,7 +2714,7 @@
   }
 
   .content.paragraph {
-    margin-bottom: 1vw;
+    margin-bottom: .7vw;
     font-size: 1.2vw;
   }
 
@@ -2474,7 +2734,7 @@
   }
 
   .about-aggregator {
-    height: 163.3vw;
+    height: 139.6vw;
     cursor: auto;
   }
 
@@ -2496,6 +2756,11 @@
     margin-right: 10.4vw;
   }
 
+  .card.options-aggregator {
+    height: 24.6vw;
+    border-width: .06vw;
+  }
+
   .card-heading-options {
     margin-bottom: .7vw;
     font-size: 2vw;
@@ -2503,7 +2768,7 @@
 
   .txt-container {
     width: 30.5vw;
-    height: 19.7vw;
+    height: 20vw;
     top: 1.7vw;
     bottom: 1.7vw;
     left: 2.7vw;
@@ -2511,9 +2776,18 @@
 
   .txt-container.best-traders {
     width: 38.5vw;
-    height: 20.4vw;
+    height: 20.5vw;
     border-width: .06vw;
     border-radius: .3vw;
+  }
+
+  .txt-container.options-aggregator {
+    width: 30.5vw;
+    height: 21.3vw;
+  }
+
+  .txt-container.options {
+    height: 21vw;
   }
 
   .opportunities {
@@ -2828,7 +3102,7 @@
     width: auto;
     grid-column-gap: .48vw;
     grid-row-gap: .48vw;
-    margin-bottom: .7vw;
+    margin-bottom: .4vw;
   }
 
   .icon-rhombus {
@@ -2850,8 +3124,8 @@
 
   .image-options {
     width: 48.6vw;
-    height: 14.8vw;
-    top: 2.3vw;
+    height: 15vw;
+    top: 2.9vw;
     bottom: 0;
     left: 35.7vw;
     right: 3.1vw;
@@ -2929,7 +3203,7 @@
 
   .card-best-traders {
     width: 79.1vw;
-    height: 20.4vw;
+    height: 20.5vw;
     margin-left: 10.4vw;
     margin-right: 10.4vw;
   }
@@ -2991,21 +3265,29 @@
   }
 
   .reviews {
-    height: 35vw;
+    height: 43vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 79.1vw;
-    height: 16.3vw;
+    height: 25.6vw;
     margin-left: 10.4vw;
     margin-right: 10.4vw;
   }
 
   .slide {
-    width: 38.5vw;
-    height: 16.3vw;
+    width: 18.2vw;
+    height: 25.6vw;
     border-width: .06vw;
     margin-right: 2vw;
+  }
+
+  .slide.head {
+    width: 18.2vw;
+    height: 25.6vw;
+    background-color: #181a3c;
   }
 
   .mask {
@@ -3022,8 +3304,8 @@
   }
 
   .user-info {
-    width: 14.7vw;
-    height: 4.8vw;
+    width: 13.6vw;
+    height: 4.1vw;
     top: 1.7vw;
     left: 2vw;
   }
@@ -3033,7 +3315,7 @@
   }
 
   .social-media-link {
-    font-size: 1.18vw;
+    font-size: 1vw;
   }
 
   .user-info-name {
@@ -3044,12 +3326,12 @@
   }
 
   .review-photo {
-    width: 4.8vw;
-    height: 4.8vw;
+    width: 4.1vw;
+    height: 4.1vw;
   }
 
   .txt-review {
-    top: 7.6vw;
+    top: 10.8vw;
     bottom: 2vw;
     left: 2vw;
     right: 2vw;
@@ -3147,6 +3429,10 @@
     left: 12.5vw;
   }
 
+  .tooltip.user-profile {
+    left: 13.7vw;
+  }
+
   .tooltip-txt {
     font-size: 1vw;
   }
@@ -3182,9 +3468,9 @@
     height: 2.7vw;
     position: absolute;
     top: auto;
-    bottom: 2.3vw;
+    bottom: 2.9vw;
     left: 43.9vw;
-    right: auto;
+    right: 0;
   }
 
   .image-fee {
@@ -3192,7 +3478,7 @@
     height: 2.7vw;
     position: absolute;
     top: auto;
-    bottom: 2.3vw;
+    bottom: 2.9vw;
     left: 35.7vw;
     right: auto;
   }
@@ -3202,9 +3488,98 @@
     height: 2.7vw;
     position: absolute;
     top: auto;
-    bottom: 2.3vw;
+    bottom: 2.9vw;
     left: 55.7vw;
+    right: 0;
+  }
+
+  .margin-trading-container {
+    width: 30.5vw;
+    margin-bottom: .7vw;
+  }
+
+  .toggle-wrap {
+    width: 6.6vw;
+    height: 2.7vw;
+    padding-left: .7vw;
+    padding-right: .34vw;
+  }
+
+  .image-collateral {
+    width: 13.1vw;
+    height: 6.25vw;
+    bottom: 4.6vw;
+    left: 34.7vw;
+  }
+
+  .toggle-button {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .tick {
+    width: .9vw;
+    height: .67vw;
+  }
+
+  .txt-off {
+    height: auto;
+    font-size: 1vw;
+    left: 2.1vw;
+  }
+
+  .txt-on {
+    font-size: 1vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: 1vw;
+    font-size: 1vw;
+  }
+
+  .arrow-trading {
+    width: 2vw;
+    height: 2vw;
+    margin-left: 1vw;
+    margin-right: .7vw;
+  }
+
+  .txt-click {
+    font-size: 1vw;
+  }
+
+  .head-reviews {
+    color: #6988ff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Electrolize, sans-serif;
+    font-size: 2.7vw;
+    font-weight: 400;
+    position: absolute;
+    top: auto;
+    bottom: 1.7vw;
+    left: 2vw;
+    right: 3.5vw;
+  }
+
+  .txt-reviews {
+    color: #fff;
+    font-family: Gantari, sans-serif;
+    font-size: 1.4vw;
+    position: absolute;
+    top: 1.7vw;
+    bottom: auto;
+    left: 2vw;
     right: auto;
+  }
+
+  .txt-link-user-profile {
+    font-size: 1.2vw;
+  }
+
+  .arrow-user-profile {
+    width: .7vw;
+    height: .7vw;
   }
 }
 
@@ -3387,7 +3762,7 @@
   }
 
   .content.paragraph {
-    margin-bottom: .7vw;
+    margin-bottom: .5vw;
     margin-right: 0;
     font-size: .88vw;
   }
@@ -3409,7 +3784,7 @@
   }
 
   .about-aggregator {
-    height: 128.5vw;
+    height: 108.8vw;
     border-radius: .3vw;
     margin-right: 0;
   }
@@ -3439,6 +3814,10 @@
     right: auto;
   }
 
+  .card.options-aggregator {
+    height: 18.2vw;
+  }
+
   .card-heading-options {
     margin-bottom: .5vw;
     font-size: 1.5vw;
@@ -3457,6 +3836,10 @@
     width: 34.6vw;
     height: 15.3vw;
     border-width: .05vw;
+  }
+
+  .txt-container.options-aggregator {
+    height: 15.6vw;
   }
 
   .opportunities {
@@ -3659,7 +4042,7 @@
   }
 
   .txt-link {
-    /* cursor: auto; */
+    cursor: auto;
     margin-right: .26vw;
     font-size: .88vw;
   }
@@ -3786,6 +4169,10 @@
     width: auto;
     height: auto;
     cursor: auto;
+  }
+
+  .link-trade.user-profile {
+    height: 1.2vw;
   }
 
   .image-options {
@@ -3928,20 +4315,27 @@
   }
 
   .reviews {
-    height: 25.8vw;
+    height: 31.5vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 70.8vw;
-    height: 11.2vw;
+    height: 19.2vw;
     margin-left: 14.5vw;
     margin-right: 14.5vw;
   }
 
   .slide {
-    width: 34.6vw;
-    height: 11.2vw;
+    width: 16.5vw;
+    height: 19.2vw;
     margin-right: 1.5vw;
+  }
+
+  .slide.head {
+    height: 19.2vw;
+    background-color: #181a3c;
   }
 
   .mask {
@@ -3984,8 +4378,8 @@
 
   .txt-review {
     height: auto;
-    top: 5.8vw;
-    bottom: 1.5vw;
+    top: 9.27vw;
+    bottom: 1.3vw;
     left: 1.5vw;
     right: 1.5vw;
   }
@@ -4081,6 +4475,10 @@
     left: 9vw;
   }
 
+  .tooltip.user-profile {
+    left: 9.8vw;
+  }
+
   .tooltip-txt {
     font-size: .78vw;
   }
@@ -4118,7 +4516,7 @@
     top: auto;
     bottom: 1.25vw;
     left: 40.2vw;
-    right: auto;
+    right: 0;
   }
 
   .image-fee {
@@ -4127,7 +4525,7 @@
     position: absolute;
     top: auto;
     bottom: 1.25vw;
-    left: 34.1146vw;
+    left: 34.1vw;
     right: auto;
   }
 
@@ -4138,7 +4536,90 @@
     top: auto;
     bottom: 1.25vw;
     left: 49.1vw;
-    right: auto;
+    right: 0;
+  }
+
+  .margin-trading-container {
+    margin-bottom: .5vw;
+  }
+
+  .toggle-wrap {
+    width: 4.3vw;
+    height: 2vw;
+    padding-left: .5vw;
+    padding-right: .26vw;
+  }
+
+  .image-collateral {
+    width: 9.8vw;
+    height: 4.6vw;
+    bottom: 3vw;
+    left: 33.3vw;
+  }
+
+  .toggle-button {
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 3vw;
+  }
+
+  .tick {
+    width: .67vw;
+    height: .5vw;
+  }
+
+  .txt-off {
+    font-size: .78vw;
+    left: 1.5vw;
+  }
+
+  .txt-on {
+    font-size: .78vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: .78vw;
+    font-size: .78vw;
+  }
+
+  .arrow-trading {
+    margin-left: .78vw;
+    margin-right: .5vw;
+  }
+
+  .txt-click {
+    font-size: .78vw;
+  }
+
+  .head-reviews {
+    color: #6988ff;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Electrolize, sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    position: absolute;
+    top: auto;
+    bottom: 1vw;
+    left: 1.5vw;
+    right: 4.9vw;
+  }
+
+  .txt-reviews {
+    color: #fff;
+    font-size: 1vw;
+    position: absolute;
+    top: 1vw;
+    left: 1.5vw;
+  }
+
+  .txt-link-user-profile {
+    font-size: .88vw;
+  }
+
+  .arrow-user-profile {
+    width: .5vw;
+    height: .5vw;
   }
 }
 
@@ -4285,7 +4766,7 @@
   }
 
   .content.paragraph {
-    margin-bottom: 1.9vw;
+    margin-bottom: 1.3vw;
     font-size: 2.2vw;
   }
 
@@ -4311,7 +4792,7 @@
 
   .about-aggregator {
     width: 100%;
-    height: 342.9vw;
+    height: 286vw;
   }
 
   .section-heading {
@@ -4331,6 +4812,11 @@
     margin-left: 5.2vw;
     margin-right: 5.2vw;
     padding: 0;
+  }
+
+  .card.options-aggregator {
+    height: 54vw;
+    max-height: none;
   }
 
   .card-heading-options {
@@ -4358,6 +4844,10 @@
 
   .txt-container.perps {
     height: 21.4844vw;
+  }
+
+  .txt-container.options-aggregator {
+    height: 30.4vw;
   }
 
   .opportunities {
@@ -4714,11 +5204,15 @@
     width: auto;
   }
 
+  .link-trade.user-profile {
+    height: 2.3vw;
+  }
+
   .image-options {
-    width: 58.5vw;
-    height: 17.9vw;
+    width: 58.6vw;
+    height: 18vw;
     top: auto;
-    bottom: 7.1vw;
+    bottom: 6.1vw;
     left: 15.4vw;
     right: 15.4vw;
   }
@@ -4855,22 +5349,30 @@
   }
 
   .reviews {
-    height: 51vw;
+    height: 73vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 89.5vw;
-    height: 27.3vw;
+    height: 51.4vw;
     margin-left: 5.7vw;
     margin-right: 5.7vw;
   }
 
   .slide {
-    width: 89.5vw;
-    height: 27.3vw;
+    width: 28.1vw;
+    height: 51.4vw;
     border-width: .13vw;
     border-radius: .65vw;
-    margin-right: 0;
+    margin-right: 2.6vw;
+  }
+
+  .slide.head {
+    width: 28.1vw;
+    height: 51.4vw;
+    margin-right: 2.6vw;
   }
 
   .mask {
@@ -4880,39 +5382,45 @@
 
   .navigation {
     padding-top: 0;
+    display: block;
     bottom: -4vw;
+    overflow: visible;
   }
 
   .user-info {
-    width: 27.6vw;
-    height: 9.1vw;
+    width: 21.8vw;
+    height: 6.5vw;
+    top: 1.9vw;
+    left: 2.6vw;
   }
 
   .name-heading {
-    margin-bottom: .65vw;
-    font-size: 2.6vw;
+    margin-bottom: .4vw;
+    font-size: 2.3vw;
     font-weight: 500;
   }
 
   .social-media-link {
-    font-size: 2.2vw;
+    font-size: 1.8vw;
   }
 
   .user-info-name {
-    width: 15.8vw;
-    height: 6.25vw;
-    top: 1.4vw;
-    bottom: 1.4vw;
+    width: 14vw;
+    height: 5.7vw;
+    top: .2vw;
+    bottom: .2vw;
   }
 
   .review-photo {
-    width: 9.1vw;
-    height: 9.1vw;
+    width: 6.5vw;
+    height: 6.5vw;
   }
 
   .txt-review {
     height: auto;
-    top: 14vw;
+    top: 19.7vw;
+    left: 2.6vw;
+    right: 2.6vw;
   }
 
   .paragraph-review {
@@ -4921,7 +5429,7 @@
 
   .review-heading {
     margin-bottom: .65vw;
-    font-size: 2.6vw;
+    font-size: 2.3vw;
   }
 
   .total-volume {
@@ -5020,11 +5528,17 @@
     left: 22vw;
   }
 
+  .tooltip.user-profile {
+    bottom: 25.1vw;
+    left: 22.8vw;
+  }
+
   .tooltip-txt {
     font-size: 1.9vw;
   }
 
   .link-analytics {
+    height: 2.3vw;
     grid-column-gap: .65vw;
     grid-row-gap: .65vw;
   }
@@ -5054,26 +5568,106 @@
 
   .image-custom-strikes {
     z-index: 2;
-    width: 18.8vw;
-    height: 5vw;
-    bottom: 2.6vw;
-    left: 30vw;
+    width: 14.8vw;
+    height: 3.9vw;
+    bottom: 3vw;
+    left: 33.4vw;
   }
 
   .image-fee {
     z-index: 2;
-    width: 13vw;
-    height: 5vw;
-    bottom: 2.6vw;
-    left: 15.7vw;
+    width: 10.4vw;
+    height: 3.9vw;
+    bottom: 3.1vw;
+    left: 21.7vw;
   }
 
   .image {
     z-index: 2;
-    width: 23.4vw;
-    height: 5vw;
+    width: 18.2vw;
+    height: 3.9vw;
+    top: auto;
+    bottom: 3vw;
+    left: auto;
+    right: 21.7vw;
+  }
+
+  .margin-trading-container {
+    width: 39.7vw;
+    height: 3.9vw;
+    margin-bottom: 1.3vw;
+  }
+
+  .toggle-wrap {
+    width: 9.9vw;
+    height: 3.9vw;
+    border-radius: 3vw;
+    padding-left: 1.3vw;
+    padding-right: .65vw;
+  }
+
+  .image-collateral {
+    width: 19.5vw;
+    height: 9.2vw;
+    top: auto;
     bottom: 2.6vw;
-    left: 50.2vw;
+    left: 8.4vw;
+    right: auto;
+  }
+
+  .toggle-button {
+    width: 2.6vw;
+  }
+
+  .tick {
+    width: 1.3vw;
+    height: .9vw;
+  }
+
+  .txt-off {
+    font-size: 1.7vw;
+    left: 2.5vw;
+  }
+
+  .txt-on {
+    font-size: 1.7vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: 2.6vw;
+    font-size: 1.7vw;
+  }
+
+  .arrow-trading {
+    width: 3.9vw;
+    height: 3.7vw;
+    margin-left: 2.6vw;
+    margin-right: 1.3vw;
+  }
+
+  .txt-click {
+    font-size: 1.7vw;
+  }
+
+  .head-reviews {
+    font-size: 3.9vw;
+    bottom: 1.9vw;
+    left: 2.6vw;
+  }
+
+  .txt-reviews {
+    font-size: 2.6vw;
+    top: 1.9vw;
+    left: 2.6vw;
+  }
+
+  .txt-link-user-profile {
+    font-size: 2.2vw;
+  }
+
+  .arrow-user-profile {
+    width: 1.3vw;
+    height: 1.3vw;
   }
 }
 
@@ -5215,7 +5809,7 @@
 
   .about-aggregator {
     width: 100%;
-    height: 483.9vw;
+    height: 404vw;
   }
 
   .section-heading {
@@ -5241,6 +5835,10 @@
     padding: 0;
   }
 
+  .card.options-aggregator {
+    height: 73vw;
+  }
+
   .card-heading-options {
     margin-bottom: .88vw;
     font-size: 4.4vw;
@@ -5248,7 +5846,7 @@
 
   .txt-container {
     width: 85.9vw;
-    height: 38vw;
+    height: 36.5vw;
     top: 2.6vw;
     left: 3.5vw;
     right: 3.5vw;
@@ -5279,6 +5877,10 @@
 
   .txt-container.user-profile {
     height: 34.1vw;
+  }
+
+  .txt-container.options-aggregator {
+    height: 42vw;
   }
 
   .opportunities {
@@ -5621,11 +6223,17 @@
     width: auto;
   }
 
+  .link-trade.user-profile {
+    height: 3vw;
+    grid-column-gap: .8vw;
+    grid-row-gap: .8vw;
+  }
+
   .image-options {
     width: 72.1vw;
     height: 22vw;
     top: auto;
-    bottom: 4.3vw;
+    bottom: 8.8vw;
     left: 10.3vw;
     right: 10.3vw;
   }
@@ -5778,22 +6386,29 @@
   }
 
   .reviews {
-    height: 70.5vw;
+    height: 93vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 92.9vw;
-    height: 40.4vw;
+    height: 65.1vw;
     margin-left: 3.5vw;
     margin-right: 3.5vw;
   }
 
   .slide {
-    width: 92.9vw;
-    height: 40.4vw;
+    width: 44.7vw;
+    height: 65.1vw;
     border-width: .17vw;
     border-color: rgba(56, 66, 99, .3);
     border-radius: .9vw;
+  }
+
+  .slide.head {
+    width: 44.7vw;
+    height: 65.1vw;
   }
 
   .mask {
@@ -5807,38 +6422,39 @@
   }
 
   .user-info {
-    width: 37.3vw;
-    height: 12.3vw;
-    top: 3.5vw;
-    left: 5.2vw;
+    width: 29.5vw;
+    height: 8.8vw;
+    top: 2.6vw;
+    left: 3.5vw;
   }
 
   .name-heading {
-    margin-bottom: .88vw;
-    font-size: 3.5vw;
+    margin-bottom: .5vw;
+    font-size: 3.1vw;
   }
 
   .social-media-link {
-    font-size: 2.9vw;
+    font-size: 2.4vw;
   }
 
   .user-info-name {
-    width: 21.4vw;
-    height: 8.4vw;
-    top: 1.9vw;
-    bottom: 1.9vw;
+    width: 19vw;
+    height: 7.7vw;
+    top: .5vw;
+    bottom: .5vw;
   }
 
   .review-photo {
-    width: 12.3vw;
-    height: 12.3vw;
+    width: 8.8vw;
+    height: 8.8vw;
     border-radius: 7vw;
   }
 
   .txt-review {
-    top: 19vw;
-    bottom: 4.4vw;
-    left: 5.2vw;
+    top: 30.2vw;
+    bottom: 2.6vw;
+    left: 3.5vw;
+    right: 3.5vw;
   }
 
   .paragraph-review {
@@ -5932,7 +6548,7 @@
     border-width: .17vw;
     border-radius: .9vw;
     padding: 1.8vw 2.6vw;
-    bottom: 29.5vw;
+    bottom: 31.5vw;
     left: 25vw;
   }
 
@@ -5942,11 +6558,18 @@
     right: 10vw;
   }
 
+  .tooltip.user-profile {
+    bottom: 33.5vw;
+    left: 29.1vw;
+    right: auto;
+  }
+
   .tooltip-txt {
     font-size: 2.6vw;
   }
 
   .link-analytics {
+    height: 3vw;
     grid-column-gap: .8vw;
     grid-row-gap: .8vw;
   }
@@ -5974,23 +6597,101 @@
   .image-custom-strikes {
     width: 20vw;
     height: 5.2vw;
-    bottom: 2.6vw;
+    bottom: 3.5vw;
     left: 31.1vw;
+    right: 34.1vw;
   }
 
   .image-fee {
     width: 14vw;
     height: 5.2vw;
-    left: 14.9vw;
+    bottom: 3.5vw;
+    left: 15.3vw;
   }
 
   .image {
     width: 24.6vw;
     height: 5.2vw;
     top: auto;
-    bottom: 2.6vw;
+    bottom: 3.5vw;
     left: auto;
-    right: 14.9vw;
+    right: 15.3vw;
+  }
+
+  .margin-trading-container {
+    width: 51.3vw;
+    height: 5.2vw;
+  }
+
+  .toggle-wrap {
+    width: 13vw;
+    height: 5.2vw;
+    border-radius: 3vw;
+    padding-left: 1.7vw;
+    padding-right: .88vw;
+  }
+
+  .image-collateral {
+    width: 26.1vw;
+    height: 12.5vw;
+    bottom: 3.5vw;
+  }
+
+  .toggle-button {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+
+  .tick {
+    width: 1.7vw;
+    height: 1.3vw;
+  }
+
+  .txt-off {
+    font-size: 2.2vw;
+    left: 3vw;
+  }
+
+  .txt-on {
+    font-size: 2.2vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: 2.6vw;
+    font-size: 2.2vw;
+  }
+
+  .arrow-trading {
+    width: 3.5vw;
+    height: 3.3vw;
+    margin-right: 1.7vw;
+  }
+
+  .txt-click {
+    font-size: 2.3vw;
+  }
+
+  .head-reviews {
+    font-size: 5.2vw;
+    bottom: 2.6vw;
+    left: 3.5vw;
+    right: 17vw;
+  }
+
+  .txt-reviews {
+    font-size: 3.5vw;
+    line-height: 115%;
+    top: 2.6vw;
+    left: 3.5vw;
+  }
+
+  .txt-link-user-profile {
+    font-size: 2.8vw;
+  }
+
+  .arrow-user-profile {
+    width: 1.7vw;
+    height: 1.7vw;
   }
 }
 
@@ -6123,7 +6824,7 @@
   }
 
   .about-aggregator {
-    height: 898vw;
+    height: 780vw;
   }
 
   .section-heading {
@@ -6155,7 +6856,7 @@
   }
 
   .card.options-aggregator {
-    height: 158vw;
+    height: 156vw;
   }
 
   .card.perps {
@@ -6201,6 +6902,10 @@
 
   .txt-container.market-analytic {
     height: 86vw;
+  }
+
+  .txt-container.options-aggregator {
+    height: 110.6vw;
   }
 
   .opportunities {
@@ -6582,9 +7287,13 @@
     width: auto;
   }
 
+  .link-trade.user-profile {
+    height: 5vw;
+  }
+
   .image-options {
     width: 103.1vw;
-    height: 31.5vw;
+    height: 29.6vw;
     bottom: 31.2vw;
     left: 6.25vw;
     right: 0;
@@ -6723,21 +7432,35 @@
   }
 
   .reviews {
-    height: 140vw;
+    height: 137vw;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .slider {
     width: 87.5vw;
-    height: 88vw;
+    height: 87.5vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
     margin-left: 6.25vw;
     margin-right: 6.25vw;
+    display: flex;
   }
 
   .slide {
     width: 87.5vw;
-    height: 88vw;
+    height: 87.5vw;
     border-width: .3vw;
     border-radius: 1.5vw;
+    position: relative;
+  }
+
+  .slide.head {
+    width: 87.5vw;
+    height: 45.3vw;
+    margin-right: 0;
+    overflow: visible;
   }
 
   .mask {
@@ -6895,6 +7618,11 @@
     right: 15.1vw;
   }
 
+  .tooltip.user-profile {
+    bottom: 31.9vw;
+    left: 5.5vw;
+  }
+
   .tooltip-txt {
     font-size: 4.6vw;
   }
@@ -6926,15 +7654,19 @@
   .image-custom-strikes {
     width: 35.6vw;
     height: 9.3vw;
-    bottom: 18.7vw;
-    left: 34.3vw;
+    top: auto;
+    bottom: 17.7vw;
+    left: auto;
+    right: 6.25vw;
   }
 
   .image-fee {
     width: 25vw;
     height: 9.3vw;
-    bottom: 18.7vw;
-    left: 6.25vw;
+    top: auto;
+    bottom: 17.8vw;
+    left: auto;
+    right: 45vw;
   }
 
   .image {
@@ -6942,8 +7674,71 @@
     height: 9.3vw;
     top: auto;
     bottom: 6.25vw;
-    left: 6.25vw;
+    left: auto;
+    right: 6.25vw;
+  }
+
+  .margin-trading-container {
+    width: 75vw;
+    height: 10.9vw;
+    margin-bottom: 3.1vw;
+  }
+
+  .toggle-wrap {
+    width: 23vw;
+    height: 9.3vw;
+    border-radius: 5vw;
+    padding-left: 3.1vw;
+    padding-right: 1.5vw;
+  }
+
+  .image-collateral {
+    width: 40.6vw;
+    height: 19vw;
+    top: auto;
+    bottom: 19.3vw;
+    left: 3.1vw;
     right: auto;
+  }
+
+  .toggle-button {
+    width: 6.25vw;
+    height: 6.25vw;
+    border-radius: 4vw;
+  }
+
+  .tick {
+    width: 3.1vw;
+    height: 2.3vw;
+  }
+
+  .txt-off {
+    min-height: auto;
+    font-size: 4vw;
+    left: 5vw;
+  }
+
+  .txt-on {
+    font-size: 4vw;
+  }
+
+  .txt-margin-trading {
+    margin-right: 4.6vw;
+    font-size: 4vw;
+  }
+
+  .arrow-trading {
+    width: 4.7vw;
+    height: 4.7vw;
+  }
+
+  .txt-link-user-profile {
+    font-size: 4.72vw;
+  }
+
+  .arrow-user-profile {
+    width: 3.1vw;
+    height: 3.1vw;
   }
 }
 
@@ -7086,6 +7881,16 @@
   mix-blend-mode: normal;
 }
 
+.txt-link {
+  cursor: pointer!important;
+}
+
+@media screen and (min-width: 1440px) {
+  .txt-container.options {
+    height: auto;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .faq {
     font-size: 1.2vw;
@@ -7117,7 +7922,7 @@
     padding-right: 1.4vw;
     padding-bottom: 1vw;
     padding-left: 1.4vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
 
   .faq-chevron {
