@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.85e57c29.chunk.css",
-    "main.js": "/static/js/main.ac47e8e3.chunk.js",
-    "main.js.map": "/static/js/main.ac47e8e3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2ff060f2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2ff060f2.js.map",
+    "main.js": "/static/js/main.f7dd5768.chunk.js",
+    "main.js.map": "/static/js/main.f7dd5768.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.239cdf73.js",
+    "runtime-main.js.map": "/static/js/runtime-main.239cdf73.js.map",
     "static/css/2.9980fd32.chunk.css": "/static/css/2.9980fd32.chunk.css",
-    "static/js/2.c87e11d7.chunk.js": "/static/js/2.c87e11d7.chunk.js",
-    "static/js/2.c87e11d7.chunk.js.map": "/static/js/2.c87e11d7.chunk.js.map",
-    "static/js/3.2d9b3909.chunk.js": "/static/js/3.2d9b3909.chunk.js",
-    "static/js/3.2d9b3909.chunk.js.map": "/static/js/3.2d9b3909.chunk.js.map",
+    "static/js/2.e06aaf67.chunk.js": "/static/js/2.e06aaf67.chunk.js",
+    "static/js/2.e06aaf67.chunk.js.map": "/static/js/2.e06aaf67.chunk.js.map",
+    "static/js/3.86487200.chunk.js": "/static/js/3.86487200.chunk.js",
+    "static/js/3.86487200.chunk.js.map": "/static/js/3.86487200.chunk.js.map",
     "static/js/4.607580f2.chunk.js": "/static/js/4.607580f2.chunk.js",
     "static/js/4.607580f2.chunk.js.map": "/static/js/4.607580f2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.9980fd32.chunk.css.map": "/static/css/2.9980fd32.chunk.css.map",
     "static/css/main.85e57c29.chunk.css.map": "/static/css/main.85e57c29.chunk.css.map",
-    "static/js/2.c87e11d7.chunk.js.LICENSE.txt": "/static/js/2.c87e11d7.chunk.js.LICENSE.txt",
-    "static/js/3.2d9b3909.chunk.js.LICENSE.txt": "/static/js/3.2d9b3909.chunk.js.LICENSE.txt",
+    "static/js/2.e06aaf67.chunk.js.LICENSE.txt": "/static/js/2.e06aaf67.chunk.js.LICENSE.txt",
+    "static/js/3.86487200.chunk.js.LICENSE.txt": "/static/js/3.86487200.chunk.js.LICENSE.txt",
     "static/media/Anyswap.svg": "/static/media/Anyswap.491d1f32.svg",
     "static/media/Artwork.svg": "/static/media/Artwork.a2d41b8c.svg",
     "static/media/Artwork_gmx.svg": "/static/media/Artwork_gmx.cc61d732.svg",
@@ -225,10 +225,10 @@
     "static/media/wave-02.png": "/static/media/wave-02.4a56e8c7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ff060f2.js",
+    "static/js/runtime-main.239cdf73.js",
     "static/css/2.9980fd32.chunk.css",
-    "static/js/2.c87e11d7.chunk.js",
+    "static/js/2.e06aaf67.chunk.js",
     "static/css/main.85e57c29.chunk.css",
-    "static/js/main.ac47e8e3.chunk.js"
+    "static/js/main.f7dd5768.chunk.js"
   ]
 }
