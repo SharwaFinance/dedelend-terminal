@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c81f934a.chunk.css",
-    "main.js": "/static/js/main.dc403f6b.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.bedffee3.js",
+    "main.css": "/static/css/main.a15012ee.chunk.css",
+    "main.js": "/static/js/main.47a20a04.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.d4902be0.js",
     "static/css/2.33c01353.chunk.css": "/static/css/2.33c01353.chunk.css",
-    "static/js/2.a71d6fb7.chunk.js": "/static/js/2.a71d6fb7.chunk.js",
-    "static/js/3.65d0b570.chunk.js": "/static/js/3.65d0b570.chunk.js",
-    "static/js/4.975efdd2.chunk.js": "/static/js/4.975efdd2.chunk.js",
+    "static/js/2.6a1ff704.chunk.js": "/static/js/2.6a1ff704.chunk.js",
+    "static/js/3.1693aa35.chunk.js": "/static/js/3.1693aa35.chunk.js",
+    "static/js/4.30de5bfa.chunk.js": "/static/js/4.30de5bfa.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.a71d6fb7.chunk.js.LICENSE.txt": "/static/js/2.a71d6fb7.chunk.js.LICENSE.txt",
-    "static/js/3.65d0b570.chunk.js.LICENSE.txt": "/static/js/3.65d0b570.chunk.js.LICENSE.txt",
+    "static/js/2.6a1ff704.chunk.js.LICENSE.txt": "/static/js/2.6a1ff704.chunk.js.LICENSE.txt",
+    "static/js/3.1693aa35.chunk.js.LICENSE.txt": "/static/js/3.1693aa35.chunk.js.LICENSE.txt",
     "static/media/Anyswap.svg": "/static/media/Anyswap.491d1f32.svg",
     "static/media/Artwork.svg": "/static/media/Artwork.a2d41b8c.svg",
     "static/media/Artwork_gmx.svg": "/static/media/Artwork_gmx.cc61d732.svg",
@@ -162,9 +162,11 @@
     "static/media/icon-GNS_sm.svg": "/static/media/icon-GNS_sm.19a10ece.svg",
     "static/media/icon-GNS_v2.svg": "/static/media/icon-GNS_v2.a93a7a42.svg",
     "static/media/icon-Hegic.svg": "/static/media/icon-Hegic.0acc5239.svg",
+    "static/media/icon-Hegic_circled.svg": "/static/media/icon-Hegic_circled.a76a8bef.svg",
     "static/media/icon-Hegic_full.svg": "/static/media/icon-Hegic_full.1f12af18.svg",
     "static/media/icon-Hegic_sm.svg": "/static/media/icon-Hegic_sm.cd3d7de7.svg",
     "static/media/icon-Lyra.svg": "/static/media/icon-Lyra.5f72eea9.svg",
+    "static/media/icon-Lyra_circled.svg": "/static/media/icon-Lyra_circled.d6e10e5c.svg",
     "static/media/icon-Lyra_full.svg": "/static/media/icon-Lyra_full.8831fee1.svg",
     "static/media/icon-Lyra_sm.svg": "/static/media/icon-Lyra_sm.02404bf9.svg",
     "static/media/icon-Premia.svg": "/static/media/icon-Premia.b0e7576d.svg",
@@ -228,10 +230,10 @@
     "static/media/wave-02.png": "/static/media/wave-02.4a56e8c7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bedffee3.js",
+    "static/js/runtime-main.d4902be0.js",
     "static/css/2.33c01353.chunk.css",
-    "static/js/2.a71d6fb7.chunk.js",
-    "static/css/main.c81f934a.chunk.css",
-    "static/js/main.dc403f6b.chunk.js"
+    "static/js/2.6a1ff704.chunk.js",
+    "static/css/main.a15012ee.chunk.css",
+    "static/js/main.47a20a04.chunk.js"
   ]
 }
