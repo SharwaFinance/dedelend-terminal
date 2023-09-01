@@ -1214,7 +1214,7 @@
   margin-top: 0;
   margin-bottom: 0;
   position: absolute;
-  top: 11.6vw;
+  top: 8vw;
   bottom: 2.6vw;
   left: 1.7vw;
   right: 1.7vw;
@@ -2277,7 +2277,7 @@
 
   .slide {
     width: 19.3vw;
-    height: 30.8vw;
+    height: 37vw;
     border-style: solid;
     border-width: .07vw;
     margin-right: 2.3vw;
@@ -5419,7 +5419,7 @@
 
   .txt-review {
     height: auto;
-    top: 19.7vw;
+    top: 10vw;
     left: 2.6vw;
     right: 2.6vw;
   }
@@ -6452,7 +6452,7 @@
   }
 
   .txt-review {
-    top: 30.2vw;
+    top: 110px;
     bottom: 2.6vw;
     left: 3.5vw;
     right: 3.5vw;
@@ -7440,7 +7440,7 @@
 
   .slider {
     width: 87.5vw;
-    height: 87.5vw;
+    height: 95vw;
     flex-direction: column;
     justify-content: space-around;
     align-items: stretch;
@@ -7451,7 +7451,7 @@
 
   .slide {
     width: 87.5vw;
-    height: 87.5vw;
+    height: 95vw;
     border-width: .3vw;
     border-radius: 1.5vw;
     position: relative;
